@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../css/style.css';
-import team1 from '../../../assets/img/team/team-1.jpg'
-import team2 from '../../../assets/img/team/team-2.jpg'
-import team3 from '../../../assets/img/team/team-3.jpg'
-import team4 from '../../../assets/img/team/team-4.jpg' 
+const team1 = '/img/team/team-1.jpg'
+const team2 = '/img/team/team-2.jpg'
+const team3 = '/img/team/team-3.jpg'
+const team4 = '/img/team/team-4.jpg' 
 
 
 function Team() {
@@ -19,11 +19,11 @@ function Team() {
                         <div className="member d-flex align-items-start">
                             <div className="pic"><img src={team1} className="img-fluid" alt="" /></div>
                             <div className="member-info">
-                                <h4>Walter White</h4>
+                                <h4>AINI LATIFA ZANIL</h4>
                                 <span>Chief Executive Officer</span>
                                 <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                                 <div className="social">
-                                    <a href><i className="ri-facebook-fill" /></a>
+                                    <a href><i className="ri-twitter-fill" /></a>
                                     <a href><i className="ri-facebook-fill" /></a>
                                     <a href><i className="ri-instagram-fill" /></a>
                                     <a href> <i className="ri-linkedin-box-fill" /> </a>
@@ -35,8 +35,8 @@ function Team() {
                         <div className="member d-flex align-items-start">
                             <div className="pic"><img src={team2} className="img-fluid" alt="" /></div>
                             <div className="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
+                                <h4>DINA SILVIA</h4>
+                                <span>Sekretaris</span>
                                 <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                                 <div className="social">
                                     <a href><i className="ri-twitter-fill" /></a>

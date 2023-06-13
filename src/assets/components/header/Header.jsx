@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../css/style.css';
-import logo from '../../../assets/img/logo.png'
+const logo = '/img/logo.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -26,8 +26,8 @@ function Header() {
             <Nav.Link href="/" style={{ color: '#ffff' }}>Home</Nav.Link>
             <Nav.Link href="/about" style={{ color: '#ffff' }}>About</Nav.Link>     
             {/* <Nav.Link href="/portofolio" style={{ color: '#ffff' }}>Portofolio</Nav.Link> */}
-            <Nav.Link href="/team" style={{ color: '#ffff' }}>Team</Nav.Link>
-            <NavDropdown title="Layanan Kami" id="basic-nav-dropdown">
+            {/* <Nav.Link href="/team" style={{ color: '#ffff' }}>Team</Nav.Link> */}
+            <NavDropdown title="Layanan Kami" id="basic-nav-dropdown" className='dropdown'>
               <NavDropdown.Item href="/sistemdevelopment" style={{ color: '#37517E' }}>System Development</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/jualbeli" style={{ color: '#37517E', marginRight: '15px' }}>
@@ -35,9 +35,6 @@ function Header() {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/layananpublik" style={{ color: '#37517E' }}>Layanan Publik</NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.4" style={{ color: '#37517E' }}>
-                Separated link
-              </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/blog" style={{ color: '#ffff' }}>Artikel</Nav.Link>
             <Nav.Link href="/contact" style={{ color: '#ffff' }}>Kontak</Nav.Link>
@@ -46,7 +43,7 @@ function Header() {
       </Container>
     </Navbar>
 
-    <header id="header" class="fixed-top">
+    {/* <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
 
         <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
@@ -81,7 +78,7 @@ function Header() {
       </nav>
 
       </div>
-    </header>
+    </header> */}
   </>
 
 }

@@ -1,6 +1,6 @@
 import '../assets/css/style.css'
 import React from 'react';
-import blogImg1 from '../assets/img/blog/blog-1.jpg'
+const blogImg1 = '/img/blog/blog-1.jpg'
 import '../assets/css/variables.css'
 
 
@@ -260,8 +260,7 @@ function BlogPage() {
               </div>
             </div>
           </div>
-        </section>{/* End Blog Section */}
-    
+        </section>{/* End Blog Section */}    
         </>
     )
 }

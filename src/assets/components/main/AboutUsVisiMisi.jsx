@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../css/style.css';
 import '../../css/variables.css'
-import aboutImg from '../../img/about.jpg'
+const aboutVisiMisiImg = '/img/visimisi.jpg'
 
 function AboutUsVisiMisi() {
     return (
@@ -11,11 +11,11 @@ function AboutUsVisiMisi() {
                     <div className="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay={200}>
                         <div className="col-lg-5">
                             <div className="about-img">
-                                <img src={aboutImg} className="img-fluid" alt="" />
+                                <img src={aboutVisiMisiImg} className="img-fluid" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-7">
-                            <h3 className="pt-0 pt-lg-5">Komitmen Kami Adalah Mewujudkan Pengembangan Digital Dalam Degeri Melalui Kolaborasi Yang Enovatif Dan Efektif. </h3>
+                            <h3 className="pt-0 pt-lg-5">Komitmen Kami Adalah Mewujudkan Pengembangan Digital Dalam Negeri Melalui Kolaborasi Yang Enovatif Dan Efektif. </h3>
                             {/* Tabs */}
                             <ul className="nav nav-pills mb-3">
                                 <li><a className="nav-link active" data-bs-toggle="pill" href="#tab1">Visi</a></li>

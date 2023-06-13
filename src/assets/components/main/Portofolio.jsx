@@ -1,15 +1,15 @@
 import React from 'react'
 import '../../css/style.css';
 
-import portofolio1 from '../../../assets/img/portfolio/portfolio-1.jpg'
-import portofolio2 from '../../../assets/img/portfolio/portfolio-2.jpg'
-import portofolio3 from '../../../assets/img/portfolio/portfolio-3.jpg'
-import portofolio4 from '../../../assets/img/portfolio/portfolio-4.jpg'
-import portofolio5 from '../../../assets/img/portfolio/portfolio-5.jpg'
-import portofolio6 from '../../../assets/img/portfolio/portfolio-6.jpg'
-import portofolio7 from '../../../assets/img/portfolio/portfolio-7.jpg'
-import portofolio8 from '../../../assets/img/portfolio/portfolio-8.jpg'
-import portofolio9 from '../../../assets/img/portfolio/portfolio-9.jpg'
+const portofolio1 = '/img/portfolio/portfolio-1.jpg'
+const portofolio2 = '/img/portfolio/portfolio-2.jpg'
+const portofolio3 = '/img/portfolio/portfolio-3.jpg'
+const portofolio4 = '/img/portfolio/portfolio-4.jpg'
+const portofolio5 = '/img/portfolio/portfolio-5.jpg'
+const portofolio6 = '/img/portfolio/portfolio-6.jpg'
+const portofolio7 = '/img/portfolio/portfolio-7.jpg'
+const portofolio8 = '/img/portfolio/portfolio-8.jpg'
+const portofolio9 = '/img/portfolio/portfolio-9.jpg'
 
 function Portofolio() {
     return <>

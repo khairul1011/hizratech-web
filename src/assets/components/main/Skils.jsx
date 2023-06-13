@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../css/style.css';
 import '../../js/main.js'
-import skilSvg1 from '../../img/sklils/features-1.svg'
-import skilSvg2 from '../../img/sklils/features-2.svg'
-import skilSvg3 from '../../img/sklils/features-3.svg'
+const skilSvg1 = '/img/sklils/features-1.svg'
+const skilSvg2 = '/img/sklils/features-2.svg'
+const skilSvg3 = '/img/sklils/features-3.svg'
 
 function Skils() {
     return <>

@@ -1,8 +1,8 @@
 import '../../../assets/css/style.css'
 import React from 'react';
-import portofolioFoto1 from '../../../assets/img/portfolio/portfolio-1.jpg'
-import portofolioFoto2 from '../../../assets/img/portfolio/portfolio-2.jpg'
-import portofolioFoto3 from '../../../assets/img/portfolio/portfolio-3.jpg'
+const portofolioFoto1 = '/img/portfolio/portfolio-1.jpg'
+const portofolioFoto2 = '/img/portfolio/portfolio-2.jpg'
+const portofolioFoto3 = '/img/portfolio/portfolio-3.jpg'
 
 function PortofolioSingle() {
     return (

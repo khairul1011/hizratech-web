@@ -19,7 +19,7 @@ function WhyUs() {
                         <div className="accordion-list">
                             <ul>
                                 <li>
-                                    <a data-bs-toggle="collapse" className="collapse" data-bs-target="#accordion-list-1"><span>01</span> System Development  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" className="collapse" data-bs-target="#accordion-list-1"><span>01</span> System Development  <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" className="collapse show" data-bs-parent=".accordion-list">
                                         <p>
                                             Hizratech bersedia untuk merancang, menguji dan mengimplementasikan aplikasi perangkat lunak baru atau program sesuai dengan kebutuhan klien.
@@ -27,7 +27,7 @@ function WhyUs() {
                                     </div>
                                 </li>
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" className="collapsed"><span>02</span> Layanan Publik <i className="bx bx-chevron-up icon-close" /> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" className="collapsed"><span>02</span> Layanan Publik <i className="bx bx-chevron-up icon-close" /> <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" className="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Hizratech siap untuk melayani klien dalam rangka pemenuhan kebutuhan pelayanan baik di bidang jasa, layanan maupun administratif.
@@ -35,7 +35,7 @@ function WhyUs() {
                                     </div>
                                 </li>
                                 <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" className="collapsed"><span>03</span> Jual Beli Perangkat Lunak dan Keras <i className="bx bx-chevron-up icon-close" /> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" className="collapsed"><span>03</span> Jual Beli Perangkat Lunak dan Keras <i className="bx bx-chevron-up icon-close" /> <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" className="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Hizratech juga menjual berbagai jenis barang perangkat lunak dan keras.

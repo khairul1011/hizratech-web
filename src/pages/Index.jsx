@@ -11,11 +11,12 @@ import Faq from '../assets/components/main/Faq'
   
 
 function Index() {
+  const isButtonEnabled = true;
     return (
         <>
         <Hero h2Text="Grow With Us " h1Text="Inspiring Minds, Shaping Futures" />
         <main id="main">
-          <AboutUs />
+          <AboutUs isButtonEnabled={isButtonEnabled} />
           <WhyUs />
           <Client />
           <Skils />

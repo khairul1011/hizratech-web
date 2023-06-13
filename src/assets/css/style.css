@@ -152,6 +152,10 @@ h6 {
 /**
 * Desktop Navigation 
 */
+.dropdown:hover {
+  display: block;
+}
+
 .navbar {
   padding: 0;
 }

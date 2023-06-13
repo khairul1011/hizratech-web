@@ -1,12 +1,11 @@
 import React from 'react'
 import '../../css/style.css';
-import hero from '../../../assets/img/hero-img.png'
+const hero = '/img/hero-img.png'
 
 
 function HeroNoBtn(props) {
   
     return <>
- 
       <section id="hero" className="d-flex align-items-center">
         <div className="container">
           <div className="row">

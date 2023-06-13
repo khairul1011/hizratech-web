@@ -12,7 +12,7 @@ function Cta() {
                         <p> Segera hubungi kami jika anda ingin berkonsultasi tentang kebutuhan anda, kami memastikan anda akan mengeluarkan biaya yang lebih efisien sesuai dengan kebutuhan sistem digital anda. </p>
                     </div>
                     <div className="col-lg-3 cta-btn-container text-center">
-                        <a className="cta-btn align-middle" href="#">Hubungi Kami</a>
+                        <a className="cta-btn align-middle" href="/contact">Hubungi Kami</a>
                     </div>
                 </div>
             </div>

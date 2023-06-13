@@ -22,33 +22,28 @@ function Footer() {
                             <h4> Link</h4>
                             <ul>
                                 <li><i className="bx bx-chevron-right" /> <a href="/">Home</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="/about">About us</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="/portofolio">Portofolio</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Terms of service</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="/kontak">Kontak</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="/about">About </a></li>
+                                {/* <li><i className="bx bx-chevron-right" /> <a href="/team">Team</a></li> */}
+                                <li><i className="bx bx-chevron-right" /> <a href="/blog">Artikel</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="/contact">Kontak</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6 footer-links">
-                            <h4>Servis Kami</h4>
+                            <h4>Layanan Kami</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Web Design</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Web Development</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Product Management</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Marketing</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Graphic Design</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="/sistemdevelopment">System Development</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="/jualbeli">Jual Beli Perangkat Lunak Dan Keras</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="/layananpublik">Layanan Publik</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-6 footer-links">
                             <h4>Sosial Media</h4>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                            <p>Berita terkini dan informasi menarik di media sosial kami.</p>
                             <div className="social-links mt-3">
-                                {/* <a href="#" className="twitter"><i className="bx bxl-twitter" /></a> */}
                                 <a href="#" className="facebook"><i className="bx bxl-facebook" /></a>
                                 <a href="https://www.instagram.com/hizratech_konsultan/" className="instagram"><i className="bx bxl-instagram" /></a>
                                 <a href="#" className="instagram"><i className="bx bxl-tiktok" /></a>
                                 <a href="https://youtube.com/@hizraofficial" className="instagram"><i className="bx bxl-youtube" /></a>
-                                {/* <a href="#" className="google-plus"><i className="bx bxl-skype" /></a>
-                                <a href="#" className="linkedin"><i className="bx bxl-linkedin" /></a> */}
                             </div>
                         </div>
                     </div>
@@ -59,10 +54,6 @@ function Footer() {
                     © Copyright <strong><span>Hizratech</span></strong>. All Rights Reserved
                 </div>
                 <div className="credits">
-                    {/* All the links in the footer should remain intact. */}
-                    {/* You can delete the links only if you purchased the pro version. */}
-                    {/* Licensing information: https://bootstrapmade.com/license/ */}
-                    {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ */}
                     Designed by <a href="https://hizratech.com/">Tim Prduksi Hizratech.</a>
                 </div>
             </div>
