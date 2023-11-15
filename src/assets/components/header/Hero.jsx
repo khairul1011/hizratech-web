@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../css/style.css';
 import Lottie from 'lottie-react'
-import lottieAnimation from '../../img/animation/BYWpCPj1Xw.json'
+import lottieAnimation from '../../img/animation/nobackground.json'
+import Waves from './Waves';
 function Hero(props) {
 
   return <>
@@ -23,6 +24,7 @@ function Hero(props) {
         </div>
       </div>
     </section>
+      < Waves />
   </>
 
 

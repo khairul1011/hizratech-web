@@ -19,7 +19,7 @@ function Skils() {
                     <li className="nav-item col-6 col-md-4 col-lg-2">
                         <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
                             <i className="bi bi-cpu bi-color-indigo" />
-                            <h4>Jual Beli Perangkat Lunak Dan Keras</h4>
+                            <h4>Pengadaan Barang & Jasa</h4>
                         </a>
                     </li>{/* End Tab 2 Nav */}
                     <li className="nav-item col-6 col-md-4 col-lg-2">

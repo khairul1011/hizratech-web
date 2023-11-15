@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import '../assets/css/style.css'
-const blogImg1 = '/img/blog/blog-1.jpg'
 import '../assets/css/variables.css'
 
 

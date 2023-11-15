@@ -11,11 +11,15 @@ import Footer from './assets/components/footer/Footer';
 import PortfolioPage from './pages/PortofolioPage';
 import AboutPage from './pages/AboutPage';
 import TeamPage from './pages/TeamPage';
-import BlogPage from './pages/BlogPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import ComingSoonPage from './pages/ComingSoonPage';
 import PageNotFound from './pages/PageNotFound';
-import News from './pages/News';
+import SistemDevelopmentPage from './pages/SistemDevelopmentPage';
+import HizraKasir from './pages/sistemdev/HizraKasirPage';
+import SamterPage from './pages/sistemdev/SmaterPage';
+import PustakaDigitalPage from './pages/sistemdev/PustakaDigitalPage';
+import HizraWebsite from './pages/sistemdev/HizraWebsite';
+import BlogPageStrapi from './pages/BlogPageStrapi';
 
 
 function App() {
@@ -28,17 +32,29 @@ function App() {
       <Header />
       <Router>
         <Routes>
+          {/* Main */}
           <Route path='/' element={<Index />} />     
           <Route path='/about' element={<AboutPage halaman="About" />} />     
           <Route path='/team' element={<TeamPage halaman="Team" />} />     
           <Route path='/contact' element={<ContactPage halaman="Kontak" />} />     
           <Route path='/portofolio' element={<PortfolioPage />} />     
-          {/* <Route path='/blog' element={<BlogPage />} />      */}
-          <Route path='/blog' element={<News />} />     
-          <Route path='/blogdetail' element={<BlogDetailPage />} />     
-          <Route path='/sistemdevelopment' element={<ComingSoonPage halaman="Sistem Development" />} />     
+
+          {/* Blog */}
+          {/* <Route path='/blog' element={<BlogPage />} />         */}
+          <Route path='/blogdetail/:id' element={<BlogDetailPage />} />     
+          <Route path='/blog' element={<BlogPageStrapi />} />     
+
+          {/* Layanan Kami */}
+          <Route path='/sistemdevelopment' element={<SistemDevelopmentPage />} />     
+          <Route path='/sistemdevelopment/pustaka' element={<PustakaDigitalPage />} />     
+          <Route path='/sistemdevelopment/kasir' element={<HizraKasir />} />   
+          <Route path='/sistemdevelopment/smater' element={<SamterPage />} />     
+          <Route path='/sistemdevelopment/website' element={<HizraWebsite />} />    
+
+          {/* Coming Soon */}
           <Route path='/jualbeli' element={<ComingSoonPage halaman="Jual Beli Perangkat Lunak Dan Keras" />} />     
-          <Route path='/layananpublik' element={<ComingSoonPage halaman="Layanan Publik" />} />     
+          <Route path='/layananpublik' element={<ComingSoonPage halaman="Layanan Publik" />} />   
+
           <Route path='*' element={<PageNotFound halaman="Not Found" />} />     
         </Routes>
       </Router>

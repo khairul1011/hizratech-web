@@ -10,11 +10,16 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+
 
 body {
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Comfortaa', cursive;
+  
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: 'Inter', sans-serif;
   color: #444444;
 }
 
@@ -34,8 +39,9 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Jost", sans-serif; */
   font-family: 'Comfortaa', cursive;
+  /* font-family: 'Inter', sans-serif; */
+
 }
 
 
@@ -144,7 +150,7 @@ h6 {
 }
 
 .fixed-top {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(40, 58, 90, 0.747);
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -177,9 +183,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  /* padding: 10px 0 10px 30px; */
   font-size: 15px;
-  font-weight: 500;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -399,8 +404,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  height: 100vh;
+  /* background: #37517e; */
+  background: linear-gradient(150deg, #37517e, rgba(63,0,156,0));
 }
 
 #hero .container {
@@ -643,6 +649,26 @@ h6 {
   }
 }
 
+.custom-shape-divider-bottom-1689267888 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689267888 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 59px;
+}
+
+.custom-shape-divider-bottom-1689267888 .shape-fill {
+  fill: #FFFFFF;
+}
 
 /*--------------------------------------------------------------
 # Sections General
